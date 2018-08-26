@@ -4,8 +4,6 @@ MAINTAINER Fernando Enzo Guarini (fernandoenzo@gmail.com)
 ENV DISPLAY :0
 
 COPY scripts/basics /tmp
-COPY static/mkvtoolnix.list /etc/apt/sources.list.d/
-
 RUN bash /tmp/basics
 
 CMD ["mkvtoolnix-gui"]

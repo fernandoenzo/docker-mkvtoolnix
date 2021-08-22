@@ -1,4 +1,4 @@
-FROM fernandoenzo/debian:10s-min
+FROM ghcr.io/fernandoenzo/debian:testing
 MAINTAINER Fernando Enzo Guarini (fernandoenzo@gmail.com)
 
 ENV DISPLAY :0
